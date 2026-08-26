@@ -60,11 +60,24 @@ CATEGORIES = {
         "xaeros-minimap-world-map-waystones-compatibility-forge",
     ],
     "Performance": ["sodium", "lithium", "entityculling"],
-    "Utility & QoL": ["jei", "veinminer", "simple-voice-chat"],
+    "Utility & QoL": [
+        "jei", "veinminer", "simple-voice-chat", "just-zoom", "not-enough-animations",
+        "chat-heads", "appleskin", "comforts", "sound-physics-remastered",
+        "open-parties-and-claims", "continuity",
+    ],
+    "Fortbewegung & Elytra": [
+        "paragliders", "elytra-slot", "elytra-trims", "elytra-trims-extensions",
+        "boat-item-view",
+    ],
+    "Deko & Ambiente": [
+        "handcrafted", "mmmmmmmmmmmm", "3dskinlayers", "entitytexturefeatures",
+        "entity-model-features",
+    ],
     "Bibliotheken (Pflichtabhängigkeiten)": [
         "balm", "dragonlib", "sable", "kotlin-lang-forge", "create-dragons-plus",
         "architectury-api", "glitchcore", "kotlin-for-forge", "mechanicals-lib", "terrablender",
         "biolith", "cloth-config", "cristel-lib", "curios", "geckolib", "lithostitched",
+        "caelus", "connector", "forgified-fabric-api", "konkrete", "moonlight", "resourceful-lib",
     ],
 }
 

@@ -1,6 +1,6 @@
 # CREATE@NAK-INF
 
-Create-Modpack der Fachschaft Informatik (NAK) — **NeoForge 1.21.1**, 100 Mods rund um
+Create-Modpack der Fachschaft Informatik (NAK) — **NeoForge 1.21.1**, 124 Mods rund um
 [Create](https://modrinth.com/mod/create): Steam 'n' Rails, Sophisticated Storage/Backpacks,
 Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 
@@ -135,6 +135,34 @@ Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 | [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | `19.44.0.405` |
 | [VeinMiner](https://modrinth.com/mod/veinminer) | `2.11.2` |
 | [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat) | `neoforge-1.21.1-2.6.22` |
+| [Just Zoom](https://modrinth.com/mod/just-zoom) | `2.1.0-1.21.1-neoforge` |
+| [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | `1.12.4` |
+| [Chat Heads](https://modrinth.com/mod/chat-heads) | `0.15.7` |
+| [AppleSkin](https://modrinth.com/mod/appleskin) | `3.0.9+mc1.21` |
+| [Comforts](https://modrinth.com/mod/comforts) | `9.0.5+1.21.1` |
+| [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) | `neoforge-1.21.1-1.5.1` |
+| [Open Parties and Claims](https://modrinth.com/mod/open-parties-and-claims) | `neoforge-1.21.1-0.30.3` |
+| [Continuity](https://modrinth.com/mod/continuity) | `3.0.0+1.21.neoforge` |
+
+### Fortbewegung & Elytra
+
+| Mod | Version |
+|---|---|
+| [Paragliders](https://modrinth.com/mod/paragliders) | `21.1.5` |
+| [Elytra Slot](https://modrinth.com/mod/elytra-slot) | `9.0.2+1.21.1` |
+| [Elytra Trims](https://modrinth.com/mod/elytra-trims) | `3.10.0` |
+| [Elytra Trims Extensions](https://modrinth.com/mod/elytra-trims-extensions) | `2.2.2` |
+| [Boat Item View](https://modrinth.com/mod/boat-item-view) | `1.21-1.21.1-0.0.6-neoforge` |
+
+### Deko & Ambiente
+
+| Mod | Version |
+|---|---|
+| [Handcrafted](https://modrinth.com/mod/handcrafted) | `4.0.3` |
+| [MmmMmmMmmMmm](https://modrinth.com/mod/mmmmmmmmmmmm) | `1.21-2.1.0` |
+| [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | `1.11.2` |
+| [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | `7.1-neoforge-1.21` |
+| [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features) | `3.2.4-neoforge-1.21` |
 
 ### Bibliotheken (Pflichtabhängigkeiten)
 
@@ -156,6 +184,12 @@ Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 | [Curios API](https://modrinth.com/mod/curios) | `9.5.1+1.21.1` |
 | [Geckolib](https://modrinth.com/mod/geckolib) | `4.9.2` |
 | [Lithostitched](https://modrinth.com/mod/lithostitched) | `1.8.0+beta4-neoforge-21.1` |
+| [Caelus API](https://modrinth.com/mod/caelus) | `7.0.1+1.21.1` |
+| [Sinytra Connector](https://modrinth.com/mod/connector) | `2.0.0-beta.17+1.21.1` |
+| [Forgified Fabric API](https://modrinth.com/mod/forgified-fabric-api) | `0.116.15+2.3.5+1.21.1` |
+| [Konkrete](https://modrinth.com/mod/konkrete) | `1.9.9-1.21-neoforge` |
+| [Moonlight Lib](https://modrinth.com/mod/moonlight) | `1.21.1-3.5.0` |
+| [Resourceful Lib](https://modrinth.com/mod/resourceful-lib) | `3.0.12` |
 <!-- MODLIST:END -->
 
 ## Lizenz / Credits
