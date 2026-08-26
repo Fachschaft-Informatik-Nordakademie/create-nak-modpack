@@ -1,6 +1,6 @@
 # CREATE@NAK-INF
 
-Create-Modpack der Fachschaft Informatik (NAK) — **NeoForge 1.21.1**, 42 Mods rund um
+Create-Modpack der Fachschaft Informatik (NAK) — **NeoForge 1.21.1**, 62 Mods rund um
 [Create](https://modrinth.com/mod/create): Steam 'n' Rails, Sophisticated Storage/Backpacks,
 Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 
@@ -37,6 +37,26 @@ Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 | [Create: Hypertubes](https://modrinth.com/mod/hypertube) | `0.6.0` |
 | [Create: Interiors](https://modrinth.com/mod/interiors) | `0.6.1` |
 | [Create Aeronautics](https://modrinth.com/mod/create-aeronautics) | `1.3.1+mc1.21.1` |
+| [Create: Copper & Zinc](https://modrinth.com/mod/create-copper-zinc) | `2.0.0` |
+| [Create: Framed](https://modrinth.com/mod/create-framed) | `1.8.2+1.21.1` |
+| [Create Goggles](https://modrinth.com/mod/create-goggles) | `6.1.1` |
+| [Create Jetpack](https://modrinth.com/mod/create-jetpack) | `5.2.1` |
+| [Create: Connected](https://modrinth.com/mod/create-connected) | `1.3.2-mc1.21.1` |
+| [Create Slice & Dice](https://modrinth.com/mod/slice-and-dice) | `4.3.3` |
+| [Create: Dreams & Desires](https://modrinth.com/mod/create-dreams-and-desires) | `2.3a-BETA` |
+| [Create: Escalated](https://modrinth.com/mod/escalated) | `1.3.2` |
+| [Create: Blocks & Bogies](https://modrinth.com/mod/blocks-bogies) | `1.0.8-1.21.1` |
+| [Create Propulsion: Simulated](https://modrinth.com/mod/create-propulsion-simulated) | `1.1.5` |
+| [Create: Threaded Trains](https://modrinth.com/mod/create-threaded-trains) | `1.21.1-1.0.0` |
+| [Create: Factory](https://modrinth.com/mod/create-factory) | `0.7b-1.21.1` |
+| [Create Mechanical Extruder](https://modrinth.com/mod/create-mechanical-extruder) | `1.21.1-2.2.2-6.0.10` |
+
+### Biomes O' Plenty
+
+| Mod | Version |
+|---|---|
+| [Biomes O' Plenty](https://modrinth.com/mod/biomes-o-plenty) | `21.1.0.14` |
+| [Create: Create O' Plenty (Create + Biomes O' Plenty Mod compat)](https://modrinth.com/mod/createoplenty) | `3.0` |
 
 ### Lagerung & Inventar
 
@@ -83,6 +103,11 @@ Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 | [Sable](https://modrinth.com/mod/sable) | `2.0.5+mc1.21.1` |
 | [KotlinLangForge](https://modrinth.com/mod/kotlin-lang-forge) | `2.13.0-k2.4.10-3.0+neoforge` |
 | [Create: Dragons Plus](https://modrinth.com/mod/create-dragons-plus) | `1.11.7b` |
+| [Architectury API](https://modrinth.com/mod/architectury-api) | `13.0.11+neoforge` |
+| [GlitchCore](https://modrinth.com/mod/glitchcore) | `2.1.0.2` |
+| [Kotlin for Forge](https://modrinth.com/mod/kotlin-for-forge) | `5.12.0` |
+| [Mechanicals Lib](https://modrinth.com/mod/mechanicals-lib) | `1.21.1-1.1.6` |
+| [TerraBlender](https://modrinth.com/mod/terrablender) | `4.1.0.8` |
 <!-- MODLIST:END -->
 
 ## Lizenz / Credits

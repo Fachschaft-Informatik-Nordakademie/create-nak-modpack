@@ -30,7 +30,12 @@ CATEGORIES = {
         "create-liquid-fuel", "create-misc-and-things", "create-ore-excavation",
         "create-railways-navigator", "create-trading-floor", "create-trimmed",
         "hypertube", "interiors", "create-aeronautics",
+        "create-copper-zinc", "create-framed", "create-goggles", "create-jetpack",
+        "create-connected", "slice-and-dice", "create-dreams-and-desires", "escalated",
+        "blocks-bogies", "create-propulsion-simulated", "create-threaded-trains",
+        "create-factory", "create-mechanical-extruder",
     ],
+    "Biomes O' Plenty": ["biomes-o-plenty", "createoplenty"],
     "Lagerung & Inventar": [
         "sophisticated-storage", "sophisticated-storage-create-integration",
         "sophisticated-backpacks", "sophisticated-backpacks-create-integration",
@@ -44,6 +49,7 @@ CATEGORIES = {
     "Utility & QoL": ["jei", "veinminer", "simple-voice-chat"],
     "Bibliotheken (Pflichtabhängigkeiten)": [
         "balm", "dragonlib", "sable", "kotlin-lang-forge", "create-dragons-plus",
+        "architectury-api", "glitchcore", "kotlin-for-forge", "mechanicals-lib", "terrablender",
     ],
 }
 
