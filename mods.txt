@@ -63,7 +63,6 @@ fruits-delight
 extradelight
 more-delight
 oceans-delight
-delightful-creators
 yungs-api
 yungs-better-nether-fortresses
 yungs-better-ocean-monuments

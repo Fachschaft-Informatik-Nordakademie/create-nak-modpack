@@ -39,7 +39,7 @@ CATEGORIES = {
     "Farmer's Delight & Familie": [
         "farmers-delight", "chefs-delight", "veggies-delight", "ends-delight",
         "expanded-delight", "my-nethers-delight", "rustic-delight", "fruits-delight",
-        "extradelight", "more-delight", "oceans-delight", "delightful-creators",
+        "extradelight", "more-delight", "oceans-delight",
         "delight-lib",
     ],
     "Weltgenerierung & Strukturen": [

@@ -1,6 +1,6 @@
 # CREATE@NAK-INF
 
-Create-Modpack der Fachschaft Informatik (NAK) — **NeoForge 1.21.1**, 124 Mods rund um
+Create-Modpack der Fachschaft Informatik (NAK) — **NeoForge 1.21.1**, 123 Mods rund um
 [Create](https://modrinth.com/mod/create): Steam 'n' Rails, Sophisticated Storage/Backpacks,
 Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 
@@ -73,7 +73,6 @@ Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 | [ExtraDelight](https://modrinth.com/mod/extradelight) | `2.6.6` |
 | [More Delight (for Farmer's Delight)](https://modrinth.com/mod/more-delight) | `26.05.20a-1.21-neoforge` |
 | [Ocean's Delight](https://modrinth.com/mod/oceans-delight) | `1.0.4` |
-| [Delightful Creators](https://modrinth.com/mod/delightful-creators) | `1.2.1` |
 | [Delight Lib](https://modrinth.com/mod/delight-lib) | `26.05.18-1.21-neoforge` |
 
 ### Weltgenerierung & Strukturen
