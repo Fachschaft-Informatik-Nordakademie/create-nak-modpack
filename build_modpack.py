@@ -42,6 +42,14 @@ CATEGORIES = {
         "extradelight", "more-delight", "oceans-delight", "delightful-creators",
         "delight-lib",
     ],
+    "Weltgenerierung & Strukturen": [
+        "terralith", "yungs-api", "yungs-better-nether-fortresses",
+        "yungs-better-ocean-monuments", "yungs-better-dungeons", "yungs-better-mineshafts",
+        "yungs-better-jungle-temples", "yungs-better-end-island", "yungs-better-strongholds",
+        "yungs-better-witch-huts", "yungs-better-desert-temples", "yungs-bridges",
+        "yungs-extras", "dungeons-and-taverns", "towns-and-towers", "trek",
+        "the-lost-castle", "repurposed-structures-forge", "hybrid-aquatic",
+    ],
     "Lagerung & Inventar": [
         "sophisticated-storage", "sophisticated-storage-create-integration",
         "sophisticated-backpacks", "sophisticated-backpacks-create-integration",
@@ -56,6 +64,7 @@ CATEGORIES = {
     "Bibliotheken (Pflichtabhängigkeiten)": [
         "balm", "dragonlib", "sable", "kotlin-lang-forge", "create-dragons-plus",
         "architectury-api", "glitchcore", "kotlin-for-forge", "mechanicals-lib", "terrablender",
+        "biolith", "cloth-config", "cristel-lib", "curios", "geckolib", "lithostitched",
     ],
 }
 

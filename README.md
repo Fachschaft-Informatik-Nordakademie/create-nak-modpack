@@ -1,6 +1,6 @@
 # CREATE@NAK-INF
 
-Create-Modpack der Fachschaft Informatik (NAK) — **NeoForge 1.21.1**, 75 Mods rund um
+Create-Modpack der Fachschaft Informatik (NAK) — **NeoForge 1.21.1**, 100 Mods rund um
 [Create](https://modrinth.com/mod/create): Steam 'n' Rails, Sophisticated Storage/Backpacks,
 Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 
@@ -76,6 +76,30 @@ Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 | [Delightful Creators](https://modrinth.com/mod/delightful-creators) | `1.2.1` |
 | [Delight Lib](https://modrinth.com/mod/delight-lib) | `26.05.18-1.21-neoforge` |
 
+### Weltgenerierung & Strukturen
+
+| Mod | Version |
+|---|---|
+| [Terralith](https://modrinth.com/mod/terralith) | `2.6.2` |
+| [YUNG's API](https://modrinth.com/mod/yungs-api) | `1.21.1-NeoForge-5.1.8` |
+| [YUNG's Better Nether Fortresses](https://modrinth.com/mod/yungs-better-nether-fortresses) | `1.21.1-NeoForge-3.1.5` |
+| [YUNG's Better Ocean Monuments](https://modrinth.com/mod/yungs-better-ocean-monuments) | `1.21.1-NeoForge-4.1.2` |
+| [YUNG's Better Dungeons](https://modrinth.com/mod/yungs-better-dungeons) | `1.21.1-NeoForge-5.1.4` |
+| [YUNG's Better Mineshafts](https://modrinth.com/mod/yungs-better-mineshafts) | `1.21.1-NeoForge-5.1.1` |
+| [YUNG's Better Jungle Temples](https://modrinth.com/mod/yungs-better-jungle-temples) | `1.21.1-NeoForge-3.1.2` |
+| [YUNG's Better End Island](https://modrinth.com/mod/yungs-better-end-island) | `1.21.1-NeoForge-3.1.2` |
+| [YUNG's Better Strongholds](https://modrinth.com/mod/yungs-better-strongholds) | `1.21.1-NeoForge-5.1.3` |
+| [YUNG's Better Witch Huts](https://modrinth.com/mod/yungs-better-witch-huts) | `1.21.1-NeoForge-4.1.1` |
+| [YUNG's Better Desert Temples](https://modrinth.com/mod/yungs-better-desert-temples) | `1.21.1-NeoForge-4.1.5` |
+| [YUNG's Bridges](https://modrinth.com/mod/yungs-bridges) | `1.21.1-NeoForge-5.1.1` |
+| [YUNG's Extras](https://modrinth.com/mod/yungs-extras) | `1.21.1-NeoForge-5.1.1` |
+| [Dungeons and Taverns](https://modrinth.com/mod/dungeons-and-taverns) | `v4.4.4+mod` |
+| [Towns and Towers](https://modrinth.com/mod/towns-and-towers) | `1.13.11` |
+| [Trek](https://modrinth.com/mod/trek) | `B0.6.2+mod` |
+| [The Lost Castle](https://modrinth.com/mod/the-lost-castle) | `2.1.0` |
+| [Repurposed Structures - Neoforge/Forge](https://modrinth.com/mod/repurposed-structures-forge) | `7.5.22+1.21.1-neoforge` |
+| [Hybrid Aquatic](https://modrinth.com/mod/hybrid-aquatic) | `1.6.9-neoforge` |
+
 ### Lagerung & Inventar
 
 | Mod | Version |
@@ -126,6 +150,12 @@ Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 | [Kotlin for Forge](https://modrinth.com/mod/kotlin-for-forge) | `5.12.0` |
 | [Mechanicals Lib](https://modrinth.com/mod/mechanicals-lib) | `1.21.1-1.1.6` |
 | [TerraBlender](https://modrinth.com/mod/terrablender) | `4.1.0.8` |
+| [Biolith](https://modrinth.com/mod/biolith) | `3.0.14` |
+| [Cloth Config API](https://modrinth.com/mod/cloth-config) | `15.0.140+neoforge` |
+| [Cristel Lib](https://modrinth.com/mod/cristel-lib) | `neoforge-1.21.1-3.1.7` |
+| [Curios API](https://modrinth.com/mod/curios) | `9.5.1+1.21.1` |
+| [Geckolib](https://modrinth.com/mod/geckolib) | `4.9.2` |
+| [Lithostitched](https://modrinth.com/mod/lithostitched) | `1.8.0+beta4-neoforge-21.1` |
 <!-- MODLIST:END -->
 
 ## Lizenz / Credits
