@@ -241,7 +241,12 @@ def main():
 
     lunar_dir = os.path.join(build_dir, "lunar-mods")
     for slug, info in resolved.items():
-        if sides[slug]["client"] == "unsupported":
+        # Nur explizit gewaehlte Seed-Mods duerfen client-seitig ausgeschlossen werden
+        # (z.B. sodium/entityculling). Automatisch aufgeloeste Pflichtabhaengigkeiten
+        # werden NIE ausgeschlossen, selbst wenn Modrinth sie faelschlich als
+        # client:"unsupported" fuehrt (z.B. lithostitched, das Terralith clientseitig
+        # zur Versionspruefung braucht) -- sonst crasht der Client beim Start.
+        if slug in seed_slugs and sides[slug]["client"] == "unsupported":
             continue
         dest = os.path.join(lunar_dir, info["filename"])
         urllib.request.urlretrieve(info["url"], dest)
