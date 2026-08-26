@@ -14,7 +14,7 @@ im Pack enthalten.
 ## Server
 
 - **NeoForge 1.21.1**, Build 21.1.248
-- Adresse: *siehe Fachschaft-Discord/Wiki*
+- Adresse: `94.130.19.169:25571`
 
 ## Installation
 
