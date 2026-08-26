@@ -1,6 +1,6 @@
 # CREATE@NAK-INF
 
-Create-Modpack der Fachschaft Informatik (NAK) — **NeoForge 1.21.1**, 62 Mods rund um
+Create-Modpack der Fachschaft Informatik (NAK) — **NeoForge 1.21.1**, 75 Mods rund um
 [Create](https://modrinth.com/mod/create): Steam 'n' Rails, Sophisticated Storage/Backpacks,
 Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 
@@ -57,6 +57,24 @@ Waystones, JEI, Performance-Mods (Sodium/Lithium/Entity Culling) und mehr.
 |---|---|
 | [Biomes O' Plenty](https://modrinth.com/mod/biomes-o-plenty) | `21.1.0.14` |
 | [Create: Create O' Plenty (Create + Biomes O' Plenty Mod compat)](https://modrinth.com/mod/createoplenty) | `3.0` |
+
+### Farmer's Delight & Familie
+
+| Mod | Version |
+|---|---|
+| [Farmer's Delight](https://modrinth.com/mod/farmers-delight) | `1.21.1-1.3.3` |
+| [Chef's Delight - Farmer's Delight Villagers](https://modrinth.com/mod/chefs-delight) | `1.0.5` |
+| [Veggies Delight (A Farmer's Delight Add-on)](https://modrinth.com/mod/veggies-delight) | `1.9.3` |
+| [End's Delight](https://modrinth.com/mod/ends-delight) | `2.6.1+neoforge.1.21.1` |
+| [Expanded Delight](https://modrinth.com/mod/expanded-delight) | `0.1.4-neoforge` |
+| [My Nether's Delight](https://modrinth.com/mod/my-nethers-delight) | `1.10.4` |
+| [Rustic Delight](https://modrinth.com/mod/rustic-delight) | `1.7.1` |
+| [Fruits Delight](https://modrinth.com/mod/fruits-delight) | `1.2.14` |
+| [ExtraDelight](https://modrinth.com/mod/extradelight) | `2.6.6` |
+| [More Delight (for Farmer's Delight)](https://modrinth.com/mod/more-delight) | `26.05.20a-1.21-neoforge` |
+| [Ocean's Delight](https://modrinth.com/mod/oceans-delight) | `1.0.4` |
+| [Delightful Creators](https://modrinth.com/mod/delightful-creators) | `1.2.1` |
+| [Delight Lib](https://modrinth.com/mod/delight-lib) | `26.05.18-1.21-neoforge` |
 
 ### Lagerung & Inventar
 

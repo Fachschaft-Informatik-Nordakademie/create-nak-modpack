@@ -36,6 +36,12 @@ CATEGORIES = {
         "create-factory", "create-mechanical-extruder",
     ],
     "Biomes O' Plenty": ["biomes-o-plenty", "createoplenty"],
+    "Farmer's Delight & Familie": [
+        "farmers-delight", "chefs-delight", "veggies-delight", "ends-delight",
+        "expanded-delight", "my-nethers-delight", "rustic-delight", "fruits-delight",
+        "extradelight", "more-delight", "oceans-delight", "delightful-creators",
+        "delight-lib",
+    ],
     "Lagerung & Inventar": [
         "sophisticated-storage", "sophisticated-storage-create-integration",
         "sophisticated-backpacks", "sophisticated-backpacks-create-integration",
