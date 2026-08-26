@@ -17,6 +17,73 @@ MC_VERSION = "1.21.1"
 LOADER = "neoforge"
 API = "https://api.modrinth.com/v2"
 
+# Reihenfolge = Reihenfolge der Ueberschriften in der README. Slugs, die hier
+# nicht auftauchen (z.B. neu hinzugekommene Pflichtabhaengigkeiten), landen
+# automatisch unter "Sonstige".
+CATEGORIES = {
+    "Create (Basis)": ["create"],
+    "Create-Addons": [
+        "createaddition", "create-structures-arise", "create-more-cogwheels",
+        "create-utilities-(unofficial-port)", "create-steam-n-rails-1.21.1",
+        "create-power-loader", "create-central-kitchen", "create-deco",
+        "create-encased", "create-enchantment-industry", "create-integrated-farming",
+        "create-liquid-fuel", "create-misc-and-things", "create-ore-excavation",
+        "create-railways-navigator", "create-trading-floor", "create-trimmed",
+        "hypertube", "interiors", "create-aeronautics",
+    ],
+    "Lagerung & Inventar": [
+        "sophisticated-storage", "sophisticated-storage-create-integration",
+        "sophisticated-backpacks", "sophisticated-backpacks-create-integration",
+        "sophisticated-core", "sophisticated-jei-index",
+    ],
+    "Navigation & Teleport": [
+        "waystones", "xaeros-minimap", "xaeros-world-map",
+        "xaeros-minimap-world-map-waystones-compatibility-forge",
+    ],
+    "Performance": ["sodium", "lithium", "entityculling"],
+    "Utility & QoL": ["jei", "veinminer", "simple-voice-chat"],
+    "Bibliotheken (Pflichtabhängigkeiten)": [
+        "balm", "dragonlib", "sable", "kotlin-lang-forge", "create-dragons-plus",
+    ],
+}
+
+
+def build_categorized_modlist_markdown(resolved: dict, titles: dict) -> str:
+    seen = set()
+    lines = []
+    for cat, slugs in CATEGORIES.items():
+        cat_slugs = [s for s in slugs if s in resolved]
+        if not cat_slugs:
+            continue
+        seen.update(cat_slugs)
+        lines.append(f"\n### {cat}\n")
+        lines.append("| Mod | Version |")
+        lines.append("|---|---|")
+        for slug in cat_slugs:
+            lines.append(f"| [{titles[slug]}](https://modrinth.com/mod/{slug}) | `{resolved[slug]['version_number']}` |")
+
+    leftover = sorted(set(resolved) - seen)
+    if leftover:
+        lines.append("\n### Sonstige\n")
+        lines.append("| Mod | Version |")
+        lines.append("|---|---|")
+        for slug in leftover:
+            lines.append(f"| [{titles[slug]}](https://modrinth.com/mod/{slug}) | `{resolved[slug]['version_number']}` |")
+
+    return "\n".join(lines) + "\n"
+
+
+def update_readme_modlist(repo_dir: str, resolved: dict, sides: dict, titles: dict) -> None:
+    readme_path = os.path.join(repo_dir, "README.md")
+    content = open(readme_path).read()
+    start_marker = "<!-- MODLIST:START -->"
+    end_marker = "<!-- MODLIST:END -->"
+    start = content.index(start_marker) + len(start_marker)
+    end = content.index(end_marker)
+    modlist = build_categorized_modlist_markdown(resolved, titles)
+    content = content[:start] + "\n" + modlist + content[end:]
+    open(readme_path, "w").write(content)
+
 
 def fetch_versions(slug: str) -> list:
     q = urllib.parse.quote(slug, safe="")
@@ -93,7 +160,9 @@ def main():
     resolved = resolve_all(seed_slugs)
     print(f"Resolved {len(resolved)} mods total.")
 
-    sides = {p["slug"]: {"client": p["client_side"], "server": p["server_side"]} for p in fetch_projects(list(resolved))}
+    projects = fetch_projects(list(resolved))
+    sides = {p["slug"]: {"client": p["client_side"], "server": p["server_side"]} for p in projects}
+    titles = {p["slug"]: p["title"] for p in projects}
 
     neoforge_version = resolve_neoforge_version()
     print(f"Latest NeoForge for {MC_VERSION}: {neoforge_version}")
@@ -164,12 +233,8 @@ def main():
     os.system(f'cd "{lunar_dir}" && zip -q -r "{zip_path}" .')
     print(f"Wrote {zip_path}")
 
-    modlist_path = os.path.join(repo_dir, "MODLIST.md")
-    with open(modlist_path, "w") as f:
-        f.write("| Mod | Version |\n|---|---|\n")
-        for slug in sorted(resolved):
-            f.write(f"| [{slug}](https://modrinth.com/mod/{slug}) | {resolved[slug]['version_number']} |\n")
-    print(f"Wrote {modlist_path}")
+    update_readme_modlist(repo_dir, resolved, sides, titles)
+    print("Updated README.md modlist section")
 
     print(f"NEOFORGE_VERSION={neoforge_version}")
 
