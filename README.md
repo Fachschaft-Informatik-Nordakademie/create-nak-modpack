@@ -44,6 +44,13 @@ NeoForge-1.21.1-Installation).
 
 Vollständige Liste inkl. Versionen: [MODLIST.md](MODLIST.md)
 
+## Auto-Build
+
+`.github/workflows/build-modpack.yml` löst `mods.txt` (+ alle Pflichtabhängigkeiten) jede Woche
+sowie bei jeder Änderung an `mods.txt`/`build_modpack.py` automatisch neu gegen die Modrinth-API auf
+und aktualisiert `MODLIST.md`. Ein neues Release mit frischem `.mrpack` + `.zip` erzeugen: Tab
+**Actions** → *Build modpack* → **Run workflow**, Versionsnummer eingeben.
+
 ## Lizenz / Credits
 
 Alle Mods gehören ihren jeweiligen Autoren (Modrinth-Links in MODLIST.md). Dieses Repo enthält keine

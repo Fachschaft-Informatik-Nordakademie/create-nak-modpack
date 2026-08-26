@@ -1,0 +1,60 @@
+name: Build modpack
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - mods.txt
+      - build_modpack.py
+      - .github/workflows/build-modpack.yml
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release-Version (z.B. 1.1.0)"
+        required: true
+        default: "0.0.0"
+  schedule:
+    # Jeden Montag 04:00 UTC pruefen, ob es neuere Mod-Versionen gibt.
+    - cron: "0 4 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build .mrpack + manual mods zip
+        env:
+          MODPACK_VERSION: ${{ github.event.inputs.version || github.sha }}
+        run: python3 build_modpack.py
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: create-nak-inf-modpack
+          path: |
+            CREATE-NAK-INF.mrpack
+            CREATE-NAK-INF-mods-manual.zip
+            MODLIST.md
+
+      - name: Commit updated MODLIST.md
+        if: github.event_name != 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add MODLIST.md
+          git diff --cached --quiet || git commit -m "Auto-update MODLIST.md"
+          git push
+
+      - name: Create release
+        if: github.event_name == 'workflow_dispatch'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ github.event.inputs.version }}
+          name: CREATE@NAK-INF v${{ github.event.inputs.version }}
+          files: |
+            CREATE-NAK-INF.mrpack
+            CREATE-NAK-INF-mods-manual.zip
